@@ -1,0 +1,28 @@
+# Node.js 의존성 파일
+/node_modules/
+
+# 로그 파일
+*.log
+
+# 환경 변수 파일
+.env
+
+# 빌드된 파일
+/dist/
+/build/
+
+# OS별 시스템 파일
+.DS_Store         # macOS에서 생성되는 파일
+Thumbs.db         # Windows에서 생성되는 파일
+
+# IDE 관련 파일
+.idea/            # JetBrains 계열 IDE (IntelliJ, WebStorm 등)
+.vscode/          # Visual Studio Code 설정 파일
+
+# npm/yarn 캐시
+npm-debug.log
+yarn-error.log
+
+# 기타 불필요한 파일들
+*.pid
+*.seed
